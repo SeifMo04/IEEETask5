@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-nav .nav-link{
+    padding: 0.3rem 0.6rem;
+}
+.navbar-nav{
+    margin-left: auto;
+    gap: 0.5rem;
+}
+.navbar-nav li ::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: white;
+    transition: width .3s ease;
+    margin-top: 1px;
+}
+.nav-link:hover{
+    color:gray;
+    border-bottom: 2px solid white;
+}
+.nav-link{
+    display: block;
+    padding: .5rem 1rem;
+}
+.navbar-nav li:hover::after {
+    width: 85%; 
+}
+.navbar-brand {
+    padding: 0.2rem 0.5rem; 
+    margin-right: 0.5rem; 
+}
+#Home1{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))
+    , url("/image/bg.jpg") ;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    flex-direction: column;
+}
+   
+ .H-animation::after {
+    content: "";
+    animation: home-animatin 3s infinite ;
+}
+@keyframes home-animatin{
+    0%{
+        content: "|";
+    }
+    2%{
+    content: "S|";
+    }
+    5%{
+        content: "Se|";
+    }
+    7%{
+        content: "Sei|";
+    }
+    10%{
+        content: "Seif|";
+    }
+    12%{
+        content: "Seif M|";
+    }
+    15%{
+        content: "Seif Mo|";
+    }
+    17%{
+        content: "Seif Moh|";
+    }
+    20%{
+        content: "Seif Moham|";
+    }
+    22%{
+        content: "Seif Mohame|";
+    }
+    25%{
+        content: "Seif Mohamed|";
+    }
+    27%{
+        content: "Seif Mohame|";
+    }
+    30%{
+        content: "Seif Moham|";
+    }
+    32%{
+        content: "Seif Moha|";
+    }
+    35%{
+        content: "Seif Mo|";
+    }
+    37%{
+        content: "Seif M|";
+    }
+    40%{
+        content: "Seif |";
+    }
+    42%{
+        content: "Sei|";
+    }
+    45%{
+        content: "Se|";
+    }
+    47%{
+        content: "S|";
+    }
+    50%{
+        content: "|";
+    }
+    52%{
+        content: "Dev|";
+    }
+    55%{
+        content: "Deve|";
+    }
+    57%{
+        content: "Devel|";
+    }
+    60%{
+        content: "Develo|";
+    }
+    62%{
+        content: "Develop|";
+    }
+    65%{
+        content: "Developer|";
+    }
+    67%{
+        content: "Develop|";
+    }
+    70%{
+        content: "Develo|";
+    }
+    72%{
+        content: "Devel|";
+    }
+    75%{
+        content: "Deve|";
+    }
+    77%{
+        content: "Dev|";
+    }
+    80%{
+        content: "|";
+    }
+    82%{
+        content: "Des|";
+    }
+    85%{
+        content: "Desi|";
+    }
+    87%{
+        content: "Desig|";
+    }
+    90%{
+        content: "Design|";
+    }
+    92%{
+        content: "Designer|";
+    }
+    95%{
+        content: "Design|";
+    }
+    97%{
+        content: "Desi|";
+    }
+    99%{
+        content: "Des|";
+    }
+    100%{
+        content: "|";
+    }
+
+}
+.Home-icons li a{
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    color: white;
+    background-color: #081721;
+    display: inline-block;
+}
+.Home-icons {
+    bottom: 30%;
+}
+
+.about-l{
+    display: block;
+    unicode-bidi: isolate;
+}
+.about-r{
+    display: block;
+    unicode-bidi: isolate;
+}
+img{
+    width: 100%;
+}
+.progress {
+    height: 25px;
+}
+
+.buttons-1 {
+    background-color: black;
+    color: white;
+}
+.buttons-1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.buttons-2 {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.buttons-2:hover {
+    background-color: black;
+    color: white;
+}
+
+.background{
+    background-color: #F7F7F7;
+}
+.ser-icons{
+    
+        width: 70px;
+        height: 70px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        margin: auto;
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+        background-color: #F4F4F4;
+    
+}
+.ser-icons:hover{
+    background-color:black;
+    color:white;
+}
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: grey;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.Car-img{
+    width: 100px;
+    height: 100px;
+margin: auto;
+}
+.background1{
+    background-color: white;
+}
+.stat-icins{
+    width: 100px;
+    height: 100px;
+}
+.teampar {
+    background-color: #5B5B5B;
+}
+.team-pic{
+    overflow: hidden;
+}
+.team-pic teampics{
+    transition: all 0.5s;
+}
+.teamanimation{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    visibility: hidden;
+    transition: all 0.1s;
+}
+.teamicons li a{
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    color: white;
+    background-color: #081721;
+}
+#contact .m-auto {
+    width: 60%;
+}
+.con-icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+.con-icon{
+    i{
+        color: grey;
+    }
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.in-form input {
+    width: 48%;
+}
+.form-control {
+    background-color: #F4F4F4;
+}
+
+.buttonform{
+    background-color: black;
+    color: white;
+    transition: all 0.6s;
+}
+.con-icon:hover{
+    background-color:black;
+    color:white;
+}
+footer p{
+    color: white;
+}
